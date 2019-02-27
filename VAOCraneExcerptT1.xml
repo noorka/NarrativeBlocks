@@ -29,10 +29,10 @@
             <!-- BLOCK Journey to safety --><l xml:id="l8">She took her way to Pepin's Court (her brother, King of France)</l>
          </lg>
          <spanGrp>
-            <span type="narrative-structure" from="#l1" to="#l2">Powerful marriage</span>
-            <span type="structure" from="l3" to="l5">Advisor suggests infidelity</span>
-            <span type="narrative-structure" from ="l7">Banishment of innocent</span>
-            <span type="narrative-structure" from ="#l8">Journey to safety</span>
+            <span from="#l1" to="#l2">Powerful marriage<lb/></span>
+            <span from="l3" to="l5">Advisor suggests infidelity<lb/></span>
+            <span from ="l7">Banishment of innocent<lb/></span>
+            <span from ="#l8">Journey to safety<lb/></span>
          </spanGrp>
       </body>
   </text>
