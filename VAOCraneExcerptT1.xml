@@ -21,17 +21,19 @@
          <!-- BLOCK Powerful marriage -->
          <lg><l xml:id="l1">ONCE on a time an Emperor, a man of might and fame,</l>
             <l xml:id="l2">Married a wife, and fair was she, and Bellisant her name;</l>
-            <span from="#l1" to="#l2">Powerful marriage</span>
             <l xml:id="l3">And fair and happy were their lives, <!-- BLOCK Advisor suggests infidelity -->until an evil man</l>
             <l xml:id="l4">(he was the High Priest of the Court) an evil tale began,</l>
             <l xml:id="l5">Of how the lady was not true unto her husband dear:</l>
-            <span from="l3" to="l5">Advisor suggests infidelity</span>
             <l xml:id="l6">The Emperor believed the tale, and rose up in great fear,</l>
             <!-- BLOCK Banishment of Innocent --><l xml:id="l7">And drove poor Bellisant away; in haste and dire mischance</l>
-            <span from ="l7">Banishment of innocent</span>
             <!-- BLOCK Journey to safety --><l xml:id="l8">She took her way to Pepin's Court (her brother, King of France)</l>
-            <span from ="#l8">Journey to safety</span>
          </lg>
+         <spanGrp>
+            <span type="narrative-structure" from="#l1" to="#l2">Powerful marriage</span>
+            <span type="structure" from="l3" to="l5">Advisor suggests infidelity</span>
+            <span type="narrative-structure" from ="l7">Banishment of innocent</span>
+            <span type="narrative-structure" from ="#l8">Journey to safety</span>
+         </spanGrp>
       </body>
   </text>
 </TEI>
