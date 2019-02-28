@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Test Document</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <!-- BLOCK Powerful marriage -->
+         <lg><l xml:id="l1">ONCE on a time an Emperor, a man of might and fame,</l>
+            <l xml:id="l2">Married a wife, and fair was she, and Bellisant her name;</l>
+            <l xml:id="l3">And fair and happy were their lives, <!-- BLOCK Advisor suggests infidelity -->until an evil man</l>
+            <l xml:id="l4">(he was the High Priest of the Court) an evil tale began,</l>
+            <l xml:id="l5">Of how the lady was not true unto her husband dear:</l>
+            <l xml:id="l6">The Emperor believed the tale, and rose up in great fear,</l>
+            <!-- BLOCK Banishment of Innocent --><l xml:id="l7">And drove poor Bellisant away; in haste and dire mischance</l>
+            <!-- BLOCK Journey to safety --><l xml:id="l8">She took her way to Pepin's Court (her brother, King of France)</l>
+         </lg>
+         <interpGrp>
+            <interp>Powerful marriage</interp>
+            <interp>Advisor suggests infidelity</interp>
+            <interp>Banishment of innocent</interp>
+            <interp>Journey to safety</interp>
+         </interpGrp>
+      </body>
+  </text>
+</TEI>
