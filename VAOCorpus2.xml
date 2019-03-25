@@ -17,7 +17,37 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <!-- SHOULD PRINCE BE REGULARIZED TO KNIGHT THROUGHOUT? -->
+   <!-- 
+   <div type="index">
+   <list>
+   <item><ref target="#nb001 #nb018">Powerful Marriage</ref></item>
+   <item><ref target="#nb002 #nb019">Advisor Suggests Infidelity</ref></item>
+   <item><ref target="#nb003 #nb021">Banishment of Innocent</ref></item>
+   <item><ref target="#nb004 #nb022">Journey to Safety</ref></item>
+   <item><ref target="#nb005 #nb024">Humble Birth</ref></item>
+   <item><ref target="#nb006 #nb025">Separation of Brothers</ref></item>
+   <item><ref target="#nb007 #nb027">Orphan Raised by a King</ref></item>
+   <item><ref target="#nb008 #nb028">Orphan Raised by an Animal</ref></item>
+   <item><ref target="#nb009">Bastards plot against prince</ref></item>
+   <item><ref target="#nb010 #nb030">Prince Fights Beast-man</ref></item>
+   <item><ref target="#nb011 #nb031">Prince Subdues Beast-man</ref></item>
+   <item><ref target="#nb012 #nb032">Beast-man Becomes a Squire</ref></item>
+   <item><ref target="#nb013 #nb033">Knight and Squire Rescue the Princess</ref></item>
+   <item><ref target="#nb014 #nb034">Squire Saves the Princess</ref></item>
+   <item><ref target="#nb015">Journey to an Oracle</ref></item>
+   <item><ref target="#nb016">Oracle Reveals Past</ref></item>
+   <item><ref target="#nb017">Brothers Marry</ref></item>
+   <item><ref target="#nb026">Disgraced Woman Seeks Refuge</ref></item>
+   <item><ref target="#nb029">Beast-man Terrorizes People</ref></item>
+   <item><ref target="#nb"></ref></item>
+   <item><ref target="#nb"></ref></item>
+   <item><ref target="#nb"></ref></item>
+   </list>
+   </div>
+   -->
    <TEI xml:id="VAOCrane">
+      <!-- xmlids nb001 to nb017 -->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -129,26 +159,29 @@
          <body>
             <div type="index">
                <list>
-                  <item><ref target="#nb1">Powerful Marriage</ref></item>
+                  <item><ref target="nb1">Powerful Marriage</ref></item>
                </list>
-
             </div>
             <div type="chapter">
                <pb n="40" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0039.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
-               <ab><seg xml:id="nb1"><title>ONCE on a time an Emperor,</title> a man of might and fame,<lb/>Married a wife, and fair was she, and
-                     Bellisant her name;</seg><lb/>And fair and happy were their lives, until an evil man<lb/>(he was the High Priest of the Court) an
-                  evil tale began,<lb/>Of how the lady was not true unto her husband dear:<lb/>The Emperor believed the tale, and rose up in great
-                  fear,<lb/>And drove poor Bellisant away; in haste and dire mischance<lb/>She took her way to Pepin's Court (her brother, King of
-                  France)</ab>
+               <!-- BLOCK Powerful marriage -->
+               <ab><seg xml:id="nb001">ONCE on a time an Emperor, a man of might and fame,</seg><lb/>Married a wife, and fair was she, and Bellisant
+                  her name;<lb/>And fair and happy were their lives, <!-- BLOCK Advisor suggests infidelity --><seg xml:id="nb002">until an evil
+                     man<lb/>(he was the High Priest of the Court) an evil tale began,<lb/>Of how the lady was not true unto her husband
+                  dear:</seg><lb/>The Emperor believed the tale, and rose up in great fear,<lb/><!-- BLOCK Banishment of Innocent --><seg
+                     xml:id="nb003">And drove poor Bellisant away; in haste and dire mischance</seg><lb/><!-- BLOCK Journey to safety --><seg
+                     xml:id="nb004">She took her way to Pepin's Court (her brother, King of France)</seg></ab>
                <figure/>
                <fw type="footer" place="bottom">1</fw>
                <pb n="41" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0040.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
                <figure/>
-               <ab>And as she fled, weighed down by grief and sense of cruel scorn,<lb/>Lo, in the forest two fair sons to Bellisant were
-                  born;<lb/>But while her servant went to buy some food, a great she-bear<lb/>Poor Bellisant ran after her, with many a sigh and
-                  moan;<lb/>In vain,—and when she turned again, the other child was gone!</ab>
+               <ab>And as she fled, weighed down by grief and sense of cruel scorn,<lb/><!-- BLOCK Humble birth --><seg xml:id="nb005">Lo, in the
+                     forest two fair sons to Bellisant were born</seg>;<lb/>But while her servant went to buy some food,<!-- BLOCK Separation of brothers -->
+                  <!-- I think some words are missing here? -->
+                  <seg xml:id="nb006">a great she-bear<lb/>Poor Bellisant ran after her, with many a sigh and moan;<lb/>In vain,—and when she turned
+                     again, the other child was gone!</seg></ab>
                <fw type="footer" place="bottom">2</fw>
                <pb n="42" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0041.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
@@ -157,10 +190,10 @@
                <pb n="44" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0043.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
                <figure/>
-               <ab>Now, Pepin chanced that very day to hunt with all his train<lb/>In that same wood, and found the child ere she came back
-                  again;<lb/>And took him home, and brought him up, and gave him all thing fine—<lb/>Apparel, horses, and a name,—so he was
-                  VALENTINE.<lb/>And brave and fair he grew,—King Pepin's daughter loved him well;<lb/>The sons were jealous. Now will I his brother's
-                  story tell.</ab>
+               <ab>Now, Pepin chanced that very day to hunt with all his train<lb/><!-- BLOCK Orphan raised by a king --><seg xml:id="nb007">In that
+                     same wood, and found the child ere she came back again;<lb/>And took him home, and brought him up, and gave him all thing
+                     fine—<lb/>Apparel, horses, and a name,—so he was VALENTINE.<lb/>And brave and fair he grew,—King Pepin's daughter loved him
+                     well;</seg><lb/>The sons were jealous. Now will I his brother's story tell.</ab>
                <fw type="footer" place="bottom">3</fw>
                <pb n="45" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0044.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
@@ -168,11 +201,14 @@
                   resp="Rare Books and Special Collections, McGill University"/>
                <note>Editor's Note: These two pages had a block of text that ran over both. The text is transcribed as if the pages were one page.
                   Both page images are provided.</note>
-               <ab>The she-bear and her savage cubs, they saved the child alive,<lb/>And nursed him well, and tended him,—well did he grow and
-                  thrive,<lb/>They called him ORSON; in the woods he lived, a strong wild man,<lb/>And all he fought he killed with ease; and so a
-                  wicked plan<lb/>Was made by Pepin's sons for getting rid of Valentine,<lb/>Whom they induced to fight wih him, by flattering words
-                  and fine.<lb/>But Valentine was conqueror, and Orson owned his might,<lb/>And served and followed him alway: and they were squire
-                  and knight.</ab>
+               <ab><!-- BLOCK Orphan raised by an animal --><seg xml:id="nb008">The she-bear and her savage cubs, they saved the child alive,<lb/>And
+                     nursed him well, and tended him,—well did he grow and thrive,<lb/>They called him ORSON;</seg> in the woods he lived, a strong
+                  wild man,<lb/>And all he fought he killed with ease; <!-- BLOCK Bastards plot against prince --><seg xml:id="nb009">and so a wicked
+                     plan<lb/>Was made by Pepin's sons for getting rid of Valentine,</seg><lb/><!-- BLOCK Prince Fights Beast-man --><seg
+                     xml:id="nb010">Whom they induced to fight wih him, by flattering words and
+                     fine.</seg><lb/><!-- BLOCK Prince subdues beast-man --><seg xml:id="nb011">But Valentine was conqueror, and Orson owned his
+                     might,</seg><lb/><!-- BLOCK Beast-man is civilized/becomes a squire  --><seg xml:id="nb012">And served and followed him alway:
+                     and they were squire and knight.</seg></ab>
                <figure/>
                <pb n="47" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0046.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
@@ -181,9 +217,9 @@
                <pb n="49" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0048.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
                <figure/>
-               <ab>Now, in that land there dwelt a man, the Green Knight he was called,<lb/>Who by his strength and magic arts a lady fair
-                  enthralled,<lb/>And kept in a prison dark and strong, and none could set her free;<lb/>Not even Valentine prevailed, with all his
-                  bravery.</ab>
+               <ab><!-- BLOCK knight and squire rescue the princess--><seg xml:id="nb013">Now, in that land there dwelt a man, the Green Knight he was
+                     called,<lb/>Who by his strength and magic arts a lady fair enthralled,<lb/>And kept in a prison dark and strong, and none could
+                     set her free;<lb/>Not even Valentine prevailed, with all his bravery.</seg></ab>
                <fw type="footer" place="bottom">6</fw>
                <pb n="50" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0049.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
@@ -191,26 +227,28 @@
                   resp="Rare Books and Special Collections, McGill University"/>
                <pb n="52" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0051.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
-               <ab>But Orson threw the Green Knight down, and bound him with a chain,<lb/>And set the lady free; both brothers then start off to
-                  gain<lb/>The Green Knight's castle-gates,—two roaring lions kept guard there,<lb/>But down they crouched when they beheld the
-                  brothers void of fear.</ab>
+               <ab><!-- BLOCKS Squire saves the princess --><seg xml:id="nb014">But Orson threw the Green Knight down, and bound him with a
+                     chain,<lb/>And set the lady free; </seg><!-- BLOCK Journey to an oracle --><seg xml:id="nb015">both brothers then start off to gain<lb/>The Green
+                  Knight's castle-gates,—two roaring lions kept guard there,<lb/>But down they crouched when they beheld the brothers void of
+                  fear.</seg></ab>
                <figure/>
                <fw type="footer" place="bottom">7</fw>
                <pb n="53" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0052.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
                <figure/>
-               <ab>And there within the castle hall they saw a head of brass,<lb/>That uttered marvels,—of their birth, and how it came to
-                  pass;<lb/>How in a convent lonely was their mother Bellisant;<lb/>How the King and Queen of France were their uncle and their
-                  aunt;<lb/>How the High Priest had confessed his lies, with many tears and groans;<lb/>How the Emperor, their father, was in search
-                  of wife and sons.<lb/>So the lost were found, the wrong made right, by all good rule and line;<lb/>They married well, and lived long
-                  years—ORSON and VALENTINE.</ab>
+               <ab><!-- BLOCK Oracle reveals past  --><seg xml:id="nb016">And there within the castle hall they saw a head of brass,<lb/>That uttered marvels,—of their
+                  birth, and how it came to pass;<lb/>How in a convent lonely was their mother Bellisant;<lb/>How the King and Queen of France were
+                  their uncle and their aunt;<lb/>How the High Priest had confessed his lies, with many tears and groans;<lb/>How the Emperor, their
+                  father, was in search of wife and sons.<lb/>So the lost were found, the wrong made right, by all good rule and
+                  line;</seg><lb/><!-- BLOCK Brothers marry  --><seg xml:id="nb017">They married well, and lived long years—ORSON and VALENTINE.</seg></ab>
                <fw type="footer" place="bottom">8</fw>
             </div>
-            <note>Editor's Note: Multiple pages not endoded here. Please see the outline in the encoding description for details.</note>
+            <note>Editor's Note: Multiple pages not encoded here. Please see the outline in the encoding description for details.</note>
          </body>
       </text>
    </TEI>
    <TEI xml:id="VAOMcLoughlin">
+      <!-- xmlids nb018 to -->
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -308,7 +346,7 @@
          </front>
          <body>
             <!-- There is some hand written stuff at the top.  -->
-            <div type="story">
+            <div type="chapter">
                <pb n="2" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00002.jpg"
                   resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                <figure>
@@ -319,7 +357,7 @@
                   <figDesc>(Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida.)</figDesc>
                </figure>
                <!-- BLOCK  powerful marriage-->
-               <ab>Long years ago, an Emperor,<lb/>A man of might and fame;<lb/>Married a wife, and fair, was she,<lb/>And Bellisant her name.</ab>
+               <ab><seg xml:id="nb018">Long years ago, an Emperor,<lb/>A man of might and fame;<lb/>Married a wife, and fair, was she,<lb/>And Bellisant her name.</seg></ab>
                <pb n="3" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00003.jpg"
                   resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                <figure>
@@ -330,24 +368,24 @@
                   <figDesc>(Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida.)</figDesc>
                </figure>
                <!-- BLOCK advisor suggests indifidelity-->
-               <ab>And true and happy were their lives,<lb/>Until an envious man;<lb/>A courtier, high in place and trust,<lb/>An evil tale
-                  began.</ab>
+               <ab>And true and happy were their lives,<lb/><seg xml:id="nb019" next="nb020">Until an envious man;<lb/>A courtier, high in place and trust,<lb/>An evil tale
+                  began.</seg></ab>
                <pb n="4" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00004.jpg"
                   resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                <fw type="header" place="top">4 Valentine and Orson.</fw>
-               <ab>'Twas said, this lady did not love,<lb/>Her royal husband dear;<lb/>And thus an honest wife was made,<lb/>Untruthful to
-                  appear.</ab>
+               <ab><seg xml:id="nb020" prev="#nb019">'Twas said, this lady did not love,<lb/>Her royal husband dear;<lb/>And thus an honest wife was made,<lb/>Untruthful to
+                  appear.</seg></ab>
                <!-- BLOCK banishment of innocent-->
-               <ab>The Emperor believed the tale,<lb/>And drove her from his side;<lb/>And through the cruel forest glades,<lb/>She wandered far and
-                  wide.</ab>
+               <ab><seg xml:id="nb021">The Emperor believed the tale,<lb/>And drove her from his side;<lb/>And through the cruel forest glades,<lb/>She wandered far and
+                  wide.</seg></ab>
                <!-- BLOCK Journey to safety-->
-               <ab>Without a friend, without a guide,<lb/>The hapless lady goes;<lb/>Unarmed, except with innocence,<lb/>All burdened with her
-                  woes.</ab>
-               <ab>To Pepin's court her steps were bent,<lb/>Her brother HE, and king,<lb/>Of mighty France, in that old time,<lb/>Of which I now
+               <ab><seg xml:id="nb022" next="#nb023">Without a friend, without a guide,<lb/>The hapless lady goes;<lb/>Unarmed, except with innocence,<lb/>All burdened with her
+                  woes.</seg></ab>
+               <ab><seg xml:id="nb023" prev="#nb022">To Pepin's court her steps were bent,</seg><lb/>Her brother HE, and king,<lb/>Of mighty France, in that old time,<lb/>Of which I now
                   shall sing.</ab>
                <!-- humble birth -->
-               <ab>And as she fled, weighed down by grief,<lb/>And sense of cruel scorn;<lb/>Lo! in the forest, two fair sons,<lb/>To Bellisant were
-                  born.</ab>
+               <ab>And as she fled, weighed down by grief,<lb/>And sense of cruel scorn;<lb/><seg xml:id="nb024">Lo! in the forest, two fair sons,<lb/>To Bellisant were
+                  born.</seg></ab>
                <pb n="5" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00005.jpg"
                   resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                <fw type="header" place="top">Valentine and Orson. 5</fw>
@@ -356,13 +394,13 @@
                <ab>And now, with her returning strength,<lb/>The poor, unhappy wife,<lb/>Began to seek her brother's court,<lb/>And pray for health
                   and life.</ab>
                <!-- BLOCK separation of brothers-->
-               <ab>One day, while her attendant went<lb/>For food, a great she-bear,<lb/>Sprung from a copse, and bore away<lb/>ONE child unto its
-                  lair.</ab>
+               <ab><seg xml:id="nb025">One day, while her attendant went<lb/>For food, a great she-bear,<lb/>Sprung from a copse, and bore away<lb/>ONE child unto its
+                  lair.</seg></ab>
                <ab>Poor Bellisant pursued the beast,<lb/>And tore her lovely hair;<lb/>Ah me, alas! when she returned,<lb/>The OTHER was not
                   there.</ab>
                <!-- BLOCK disgraced woman seeks refuge-->
-               <ab>Then up and down the forest drear,<lb/>She vainly sought relief;<lb/>Till at a convent's friendly gate,<lb/>She sank, o'ercome with
-                  grief.</ab>
+               <ab><seg xml:id="nb026">Then up and down the forest drear,<lb/>She vainly sought relief;<lb/>Till at a convent's friendly gate,<lb/>She sank, o'ercome with
+                  grief.</seg></ab>
                <pb n="6" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00006.jpg"
                   resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                <figure>
@@ -383,35 +421,34 @@
                   <lb/>
                   <figDesc>(Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida.)</figDesc>
                </figure>
-               <!-- BLOCK orphan raised by king-->
                <ab>Now Pepin chanced, that very day,<lb/>To hunt with all his train;<lb/>In that same wood, and found the child,<lb/>Ere she came back
                   again.</ab>
                <pb n="8" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00009.jpg"
                   resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                <fw type="header" place="top">8 Valentine and Orson.</fw>
-               <ab>Said Pepin, <said>"this is very strange,<lb/>This boy shall now be mine;<lb/>He'll make a pretty play-fellow,<lb/>For litle
-                     Eglantine."</said></ab>
+               <ab><!-- BLOCK orphan raised by king--><seg xml:id="nb027">Said Pepin, <said>"this is very strange,<lb/>This boy shall now be mine;<lb/>He'll make a pretty play-fellow,<lb/>For litle
+                     Eglantine."</said></seg></ab>
                <ab><said>"And by my faith,"</said> the king went on,<lb/><said>"I never wrote a line;<lb/>Yet I will rhyme his name with hers,<lb/>And
                      call him Valentine."</said></ab>
                <ab>Thus reared within that noble court,<lb/>A knight he soon became;<lb/>Whose courtesy and valor blazed,<lb/>Upon the roll fame.</ab>
                <ab>And all his noble deeds were done,<lb/>In praise of Eglantine;<lb/>Who, though her brothers hated him,<lb/>Loved gentle
                   Valentine.</ab>
                <!-- BLOCK orphan raised by animal -->
-               <ab>And now, how fared the tender babe,<lb/>Borne off while still alive?<lb/>The wild bear nursed him tenderly,<lb/>And nobly did he
-                  thrive.</ab>
+               <ab><seg xml:id="nb028">And now, how fared the tender babe,<lb/>Borne off while still alive?<lb/>The wild bear nursed him tenderly,<lb/>And nobly did he
+                  thrive.</seg></ab>
                <pb n="9" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00010.jpg"
                   resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                <fw type="header" place="top">Valentine and Orson. 9</fw>
                <!-- BLOCK beast man terrorizes people-->
-               <ab>Trough all the country round about,<lb/>As Orson, he was known;<lb/>And with him roamed his brother bear;<lb/>He never went
-                  alone.</ab>
+               <ab><seg xml:id="nb029">Trough all the country round about,<lb/>As Orson, he was known;<lb/>And with him roamed his brother bear;<lb/>He never went
+                  alone.</seg></ab>
                <ab>And Pepin's knights, though armor-clad,<lb/>With sword and lance complete,<lb/>Whene'er they fronted Orson's might,<lb/>Were
                   crushed with sore defeat.</ab>
                <ab>Then said the gentle Valentine;<lb/><said>"I'll seek this monster, when<lb/>He thinks himself secure and safe,<lb/>I'll beard him
                      in his den."</said></ab>
                <!-- BLOCK prince fights beast man-->
-               <ab>But scarcely had he reached the wood,<lb/>When Orson came in sight;<lb/>And man and beast, with horrid yells,<lb/>Rushed fiercely
-                  on the knight.</ab>
+               <ab><seg xml:id="nb030">But scarcely had he reached the wood,<lb/>When Orson came in sight;<lb/>And man and beast, with horrid yells,<lb/>Rushed fiercely
+                  on the knight.</seg></ab>
                <ab>High in the air, a mighty tree,<lb/>Does Orson lightly wield;<lb/>Then drops it, with fearful clang,<lb/>Upon his foeman's
                   shield.</ab>
                <pb n="10" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00011.jpg"
@@ -424,8 +461,8 @@
                   <figDesc>(Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida.)</figDesc>
                </figure>
                <!-- BLOCK prince subdues beast-man-->
-               <ab>But when he saw his savage face,<lb/>Look from the glitt'ring round;<lb/>With fright and horror overcome,<lb/>He grovelled on the
-                  ground.</ab>
+               <ab><seg xml:id="nb031">But when he saw his savage face,<lb/>Look from the glitt'ring round;<lb/>With fright and horror overcome,<lb/>He grovelled on the
+                  ground.</seg></ab>
                <pb n="11" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00012.jpg"
                   resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                <figure>
@@ -440,21 +477,20 @@
                <pb n="12" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00013.jpg"
                   resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                <fw type="header" place="top">12 Valentine and Orson.</fw>
-               <ab>So Valentine was conqueror.<lb/>Brave Orson owned his might;<lb/>And lovingly he followed him,<lb/>And served him day and
-                  night.</ab>
+               <ab>So Valentine was conqueror.<lb/>Brave Orson owned his might;<lb/><seg xml:id="nb032">And lovingly he followed him,<lb/>And served him day and
+                  night.</seg></ab>
                <ab>And thus we see how time and tide,<lb/>Brings many a wondrous thing;—<lb/>One brother reared by savage bears,<lb/>The other by a
                   king.</ab>
                <!-- BLOCK knight and squire rescue the princess-->
-               <ab>Now in that land a wicked knight,<lb/>Called Agramont, did dwell;<lb/>Who, by his strength, and magic arts,<lb/>A lady did
-                  compel,</ab>
-               <!-- BLOCK fight a magically protected foe-->
+               <ab><seg xml:id="nb033">Now in that land a wicked knight,<lb/>Called Agramont, did dwell;<lb/>Who, by his strength, and magic arts,<lb/>A lady did
+                  compel,</seg></ab>
                <ab>To languish in a prison dark,<lb/>And none could set her free;<lb/>Not even Valentine prevailed,<lb/>With all his bravery.</ab>
                <!-- BLOCK squire saves the princess-->
-               <ab>But Orson overcame the knight,<lb/>And bound him with a chain;<lb/>And set the lady free, to see,<lb/>The pleasant sun again.</ab>
+               <ab><seg xml:id="nb034">But Orson overcame the knight,<lb/>And bound him with a chain;<lb/>And set the lady free, to see,<lb/>The pleasant sun again.</seg></ab>
                <pb n="13" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00014.jpg"
                   resp="Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida."/>
                <fw type="header" place="top">Valentine and Orson. 13</fw>
-               <!-- BLOCK oracle  reveals past-->
+               <!-- BLOCK oracle reveals past-->
                <ab>And there, within the castle hall,<lb/>They saw a head of brass;<lb/>That told the wonders of their birth,<lb/>And how it came to
                   pass;</ab>
                <ab>That in a convent lonely, pined,<lb/>Their mother Bellisant;<lb/>And that the King and Queen of France,<lb/>Their uncle were, and
@@ -476,7 +512,7 @@
                   <lb/>
                   <figDesc>(Baldwin Library of Historical Children's Literature, George A. Smathers Libraries, University of Florida.)</figDesc>
                </figure>
-               <!-- BLOCK squire becomes fully human/ brothers marry-->
+               <!-- BLOCK brothers marry-->
                <ab>And Orson, in good time became,<lb/>A brave and noble knight;<lb/>As famed for wisdom in the tent,<lb/>As courage in the
                   fight.</ab>
                <pb n="15" facs="http://ufdcimages.uflib.ufl.edu/UF/00/02/35/86/00001/00016.jpg"
@@ -1438,15 +1474,6 @@
             </titlePage>
          </front>
          <body>
-            <div type="index">
-               <list>
-                  <item><ref target="#nb001">Powerful Marriage</ref></item>
-                  <item><ref target="#nb002">Advisor Suggests Infidelity</ref></item>
-                  <item><ref target="#nb003">Banishment of Innocent</ref></item>
-                  <item><ref target="#nb004">Humble Birth</ref></item>
-                  <item><ref target="#nb005">Separation of Brothers</ref></item>
-               </list>
-            </div>
             <div type="story">
                <pb n="2"
                   facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0001.jpg"
@@ -1456,18 +1483,18 @@
                   <head>CHAP. I.</head>
                   <ab>The baniſhment of the Lady Belliſant, who is delivered of Valentine and Orſon at one Birth, in a wood,</ab>
                   <!-- BLOCK Powerful marriage  -->
-                  <p><seg xml:id="nb001">IT is recorded, that PEPEN, King of France, had a fair ſiſter named Belliſant, who was married to Alexander,
+                  <p><seg xml:id="nb101">IT is recorded, that PEPEN, King of France, had a fair ſiſter named Belliſant, who was married to Alexander,
                         the Emperor of Greece, and by him carried to his Capital at Conſtantinople;</seg><!-- BLOCK Advisor suggests infidelity -->
-                     <seg xml:id="nb002">from whence, after having lived with great virtue, ſhe was baniſshed through the means of a falſe accuſer,
+                     <seg xml:id="nb100">from whence, after having lived with great virtue, ſhe was baniſshed through the means of a falſe accuſer,
                         whom the had ferverely checked for his imprudence;</seg> and though at the ſame time ſhe was big with Child,
-                        <!-- BLOCK Banishment of Innocent   --><seg xml:id="nb003">yet ſhe was compelled to <pb n="3"
+                        <!-- BLOCK Banishment of Innocent   --><seg xml:id="nb102">yet ſhe was compelled to <pb n="3"
                            facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0002.jpg"
                            resp="Rare Books and Special Collections, McGill University"/><fw type="header" place="top">( 3 )</fw><lb/><lb/>leave her
                         huſband's empire, to the great regret of the people, attended only with a ſquire named Blandiman.</seg></p>
-                  <p><!-- BLOCK Humble birth --><seg xml:id="nb004">After great fatigue and travel, ſhe arrived in the foreſt of Orleans, where
+                  <p><!-- BLOCK Humble birth --><seg xml:id="nb103">After great fatigue and travel, ſhe arrived in the foreſt of Orleans, where
                         finding her pains come thick upon her, ſhe diſmiſſed her attendant for a midwife, but before his return was delivered of two
                         lovely children,</seg>
-                     <!-- BLOCK Separation of brothers  --><seg xml:id="nb005">one of which was conveyed away by a ſhe bear, but ſhe willing to ſave
+                     <!-- BLOCK Separation of brothers  --><seg xml:id="nb104">one of which was conveyed away by a ſhe bear, but ſhe willing to ſave
                         it purſued on her hands and knees, leaving the other behind.</seg></p>
                   <p>But before her return, King Pepin being a hunting in the foreſt, came to the tree where ſhe left the other
                      babe,<!-- BLOCK Orphan raised by a king --> and cauſing it to be taken up, ſent it to nurſe, and when it grew up called his name
