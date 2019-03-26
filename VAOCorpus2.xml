@@ -179,11 +179,6 @@
          </front>
          <note>Editor's Note: Multiple pages not endoded here. Please see the outline in the encoding description for details.</note>
          <body>
-            <div type="index">
-               <list>
-                  <item><ref target="nb1">Powerful Marriage</ref></item>
-               </list>
-            </div>
             <div type="chapter">
                <pb n="40" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0039.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
@@ -675,7 +670,7 @@
             </figure>
          </front>
          <body>
-            <div type="story">
+            <div type="chapter">
                <pb n="1"
                   facs="https://archive.org/download/McGillLibrary-PN970_W55_A3_1814-1702/PN970_W55_A3_1814_jp2.zip/PN970_W55_A3_1814_jp2%2FPN970_W55_A3_1814_0002.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
@@ -1248,7 +1243,7 @@
             </titlePage>
          </front>
          <body>
-            <div type="story">
+            <div type="chapter">
                <pb n="2"
                   facs="https://archive.org/download/McGillLibrary-PN970_G6_V3_1846-1180/PN970_G6_V3_1846_DUP_jp2.zip/PN970_G6_V3_1846_DUP_jp2%2FPN970_G6_V3_1846_DUP_0003.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
@@ -1508,12 +1503,12 @@
             </titlePage>
          </front>
          <body>
-            <div type="story">
+            <div type="chapter">
                <pb n="2"
                   facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0001.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
                <head>THE<lb/>HISTORY<lb/>OF<lb/>Valentine and Orson.</head>
-               <div type="chapter">
+               <div type="section">
                   <head>CHAP. I.</head>
                   <ab>The baniſhment of the Lady Belliſant, who is delivered of Valentine and Orſon at one Birth, in a wood,</ab>
                   <!-- BLOCK Powerful marriage  -->
@@ -1558,7 +1553,7 @@
                   facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0004.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
                <fw type="header" place="top">( 5 )</fw>
-               <div type="chapter">
+               <div type="section">
                   <head>CHAP. II.</head>
                   <ab>Valentine conquers his Brother in the foreſt of Orelans.</ab>
                   <p>NOW was Valentine grown a luſty young man, and by the King as greatly beloed as if he had been his own ſon: commanding him to be
@@ -1604,7 +1599,7 @@
                   resp="Rare Books and Special Collections, McGill University"/>
                <fw type="header" place="top">( 8 )</fw>
                <lb/>
-               <div type="chapter">
+               <div type="section">
                   <head>CHAP. III</head>
                   <ab>The fight between Orſon and the Green Knight.</ab>
                   <p><!-- BLOCK Knight and squire rescue princess --><!-- THis might be a block that is on the entire div, not just a singly thingy -->AFTER
@@ -1639,7 +1634,7 @@
                      was reſolved to marry none but him, who had so nobly conquered the Green Knight.</p>
                   <!-- There is a line of pretty stars here -->
                </div>
-               <div type="chapter">
+               <div type="section">
                   <head>CHAP. IV.</head>
                   <ab>Valentine and Orſon go in ſearch of Lady Clerimond, who had the Brazen Head in her poſſeſſion.</ab>
                   <p><!-- BLOCK Journey to an oracle --><seg xml:id="nb103">V<!-- Fancy letter -->ALENTINE and Orſon having taken leave of the Duke of Acquitain and his
@@ -1702,7 +1697,7 @@
                      Orſon with great ſolemnity; upon which tilts and tournaments were performed for many days; but Valentine carried the prize by
                      overthrowing at leaſt above an hundred brave Knights.</seg></p>
                </div>
-               <div type="chapter">
+               <div type="section">
                   <pb n="15"
                      facs="https://archive.org/download/McGillLibrary-PN970_W357_H57_1790z-2043/PN970_W357_H57_1790z_jp2.zip/PN970_W357_H57_1790z_jp2%2FPN970_W357_H57_1790z_0014.jpg"
                      resp="Rare Books and Special Collections, McGill University"/>
