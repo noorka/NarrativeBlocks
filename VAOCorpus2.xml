@@ -179,6 +179,54 @@
          </front>
          <note>Editor's Note: Multiple pages not endoded here. Please see the outline in the encoding description for details.</note>
          <body>
+            <div type="index">
+               <list>
+                  <item><ref target="#nb001 #nb018 #nb039 #nb063 #nb084">Powerful Marriage</ref></item>
+                  <item><ref target="#nb002 #nb019 #nb040 #nb064 #nb085">Advisor Suggests Infidelity</ref></item>
+                  <item><ref target="#nb003 #nb021 #nb042 #nb066 #nb086">Banishment of Innocent</ref></item>
+                  <item><ref target="#nb004 #nb022">Journey to Safety</ref></item>
+                  <item><ref target="#nb005 #nb024 #nb043 #nb067 #nb087">Humble Birth</ref></item>
+                  <item><ref target="#nb006 #nb025 #nb044 #nb088 #090">Separation of Brothers</ref></item>
+                  <item><ref target="#nb007 #nb027 #nb045 #nb068 #nb089">Orphan Raised by a King</ref></item>
+                  <item><ref target="#nb008 #nb028 #nb047 #nb070 #nb093">Orphan Raised by an Animal</ref></item>
+                  <item><ref target="#nb009 #nb050 #nb071 #nb098">Bastards plot against prince</ref></item>
+                  <item><ref target="#nb010 #nb030 #nb052 #nb072 #nb099">Prince Fights Beast-man</ref></item>
+                  <item><ref target="#nb011 #nb031 #nb053 #nb073 #nb100">Prince Subdues Beast-man</ref></item>
+                  <item><ref target="#nb012 #nb032 #nb074 #nb075">Beast-man Becomes a Squire</ref></item>
+                  <item><ref target="#nb013 #nb033 #nb054 #nb076 #nb101">Knight and Squire Rescue the Princess</ref></item>
+                  <item><ref target="#nb014 #nb034 #nb056 #nb102">Squire Saves the Princess</ref></item>
+                  <item><ref target="#nb015 #nb057 #nb079 #nb103">Journey to an Oracle</ref></item>
+                  <item><ref target="#nb016 #nb035 #nb058 #nb080 #nb105">Oracle Reveals Past</ref></item>
+                  <item><ref target="#nb017 #nb037 #nb038 #nb062 #nb083 #nb112">Brothers Marry</ref></item>
+                  <item><ref target="#nb026 #nb092">Disgraced Woman Seeks Refuge</ref></item>
+                  <item><ref target="#nb029 #nb048 #nb051 #nb097">Beast-man Terrorizes People</ref></item>
+                  <item><ref target="#nb036">Brothers Save Mother</ref></item>
+                  <item><ref target="#nb036 #nb061 #nb082">Family Reunited</ref></item>
+                  <item><ref target="#nb046 #nb069 #nb091">Innocent Rebuked by Sibling</ref></item>
+                  <item><ref target="#nb049">Knight Saves General</ref></item>
+                  <item><ref target="#nbo55 #nb077">Fight a Magically Protected Foe</ref></item>
+                  <item><ref target="#nb059 #nb106">Brothers Reconciled</ref></item>
+                  <item><ref target="#nb060 #nb081 #nb096">Advisor Admits Guilt</ref></item>
+                  <item><ref target="#nb065">Accusation of Infidelity</ref></item>
+                  <item><ref target="#nb078">Squire's Abilities Beat Protected Foe</ref></item>
+                  <item><ref target="#nb094">Denunciation of Advisor</ref></item>
+                  <item><ref target="#nb095">Challenge of Evil Advisor</ref></item>
+                  <item><ref target="#nb104">Proving Worth to gGuardian of Oracle</ref></item>
+                  <item><ref target="#nb107">Enemy Learns of Treachery</ref></item>
+                  <item><ref target="#nb108">Enemy Swears Vengeance</ref></item>
+                  <item><ref target="#nb109">Enemy Tricks Heros</ref></item>
+                  <item><ref target="#nb110">Enemy Traps Heros</ref></item>
+                  <item><ref target="#nb111">Magical Assistance in Escape</ref></item>
+                  <item><ref target="#nb113">Knight Goes on Pilgrimage</ref></item>
+                  <item><ref target="#nb114">Squire Ascends to Power</ref></item>
+                  <item><ref target="#nb115">Knight Returns Home</ref></item>
+                  <item><ref target="#nb116">Knight Dies</ref></item>
+                  <item><ref target="#nb117">Ally Ascends to Power</ref></item>
+                  <item><ref target="#nb118">Squire becomes a hermit</ref></item>
+                  <item><ref target="#nb119">Squire Dies</ref></item>
+                  <item><ref target="#nb"></ref></item>
+               </list>
+            </div>
             <div type="chapter">
                <pb n="40" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0039.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
@@ -1674,7 +1722,7 @@
                      embarked with him. When he had got them on board, he ordered them to be put in irons, which ſo grieved his ſiſter Clerimond, that
                      ſhe would have thrown herſelf into the ſea had ſhe not been ſtopped.</seg></p>
                </div>
-               <div type="chapter">
+               <div type="section">
                   <head>CHAP. V.</head>
                   <ab>Pecolet comforts the Ladies, and delivers Valentine and Orſon out of Priſon.</ab>
                   <p><!-- BLOCK Enemy traps heros --><seg xml:id="nb110">WHEN they were come to Portugal, he put Valentine and Orſon in a dungeon,</seg> fed them with bread and
