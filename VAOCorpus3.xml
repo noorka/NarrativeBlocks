@@ -6,14 +6,23 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Adventures with Valentine and Orson</title>
+            <title>Digital Representation of Narrative Elements in Valentine and Orson</title>
             <author>Anna Kroon</author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+               <publisher>Anna Kroon</publisher>
+               <address>
+                  <addrLine>300 Boston Post Rd</addrLine>
+                  <addrLine>West Haven, CT 06516</addrLine>
+               </address>
+               <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc/4.0/legalcode">Attribution-NonCommercial 4.0 International</licence>
+               </availability>
+               <date when="2019-05-13">May 13, 2019</date>
+               <distributor>Dynamic Table of Contexts</distributor>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Information about each individual source is contained in the individual header.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -230,8 +239,8 @@
                <pb n="40" facs="https://archive.org/download/McGillLibrary-104381-365/104381_jp2.zip/104381_jp2%2F104381_0039.jpg"
                   resp="Rare Books and Special Collections, McGill University"/>
                <!-- BLOCK Powerful marriage -->
-               <ab><seg xml:id="nb001">ONCE on a time an Emperor, a man of might and fame,</seg>  <lb/>Married a wife, and fair was she, and Bellisant
-                  her name;  <lb/>And fair and happy were their lives, <!-- BLOCK Advisor suggests infidelity --><seg xml:id="nb002">until an evil
+               <ab><seg xml:id="nb001">ONCE on a time an Emperor, a man of might and fame,  <lb/>Married a wife, and fair was she, and Bellisant
+                  her name; </seg><lb/>And fair and happy were their lives, <!-- BLOCK Advisor suggests infidelity --><seg xml:id="nb002">until an evil
                      man  <lb/>(he was the High Priest of the Court) an evil tale began,  <lb/>Of how the lady was not true unto her husband
                   dear:</seg> <lb/>The Emperor believed the tale, and rose up in great fear,  <lb/><!-- BLOCK Banishment of Innocent --><seg
                      xml:id="nb003">And drove poor Bellisant away; in haste and dire mischance</seg>  <lb/><!-- BLOCK Journey to safety --><seg
